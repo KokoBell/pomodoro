@@ -1,0 +1,49 @@
+
+.timer {
+  font-size: 2rem;
+  display: flex;
+  align-self: center;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 25px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.full {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.btn {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 760px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+  }
+}
+
